@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weird Animals Gallery</title>
+
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            color: darkslategray;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .animal-card {
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px gray;
+            width: 300px;
+        }
+
+        .animal-card img {
+            height: 250px;
+            width: auto;
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .caption {
+            margin-top: 10px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Weird Animals Gallery</h1>
+
+    <div class="gallery">
+
+        <div class="animal-card">
+            <a href="https://commons.wikimedia.org/wiki/File:MUDSKIPPER.jpg" target="_blank">
+                <img src="mudskipper.jpg" alt="Mudskipper">
+            </a>
+            <div class="caption">Mudskipper</div>
+        </div>
+
+        <div class="animal-card">
+            <a href="https://commons.wikimedia.org/wiki/Category:Saiga" target="_blank">
+                <img src="saiga.jpg" alt="Saiga Antelope">
+            </a>
+            <div class="caption">Saiga Antelope</div>
+        </div>
+
+        <div class="animal-card">
+            <a href="https://commons.wikimedia.org/wiki/File:MANED_WOLF_(20523019975).jpg" target="_blank">
+                <img src="maned-wolf.jpg" alt="Maned Wolf">
+            </a>
+            <div class="caption">Maned Wolf</div>
+        </div>
+
+    </div>
+
+</body>
+</html>
