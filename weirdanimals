@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>WEIRD ANIMAL GALLERY</title>
+
+<style>
+
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: darkgreen;
+}
+
+img {
+    height: 250px;
+    width: auto;
+    margin: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>WEIRD ANIMAL GALLERY</h1>
+
+<img src="mudskipper.jpg" alt="Mudskipper Fish">
+
+<img src="saiga_antelope.jpg" alt="Saiga Antelope">
+
+<img src="maned_wolf.jpg" alt="Maned Wolf">
+
+</body>
+
+</html>
